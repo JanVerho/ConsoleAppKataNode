@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppKataNode\ConsoleAppKataNode.csproj" />
+    <ProjectReference Include="..\ConsoleAppLinqDictionary\ConsoleAppLinqDictionary.csproj" />
+    <ProjectReference Include="..\ConsoleAppObjContains\ConsoleAppObjContains.csproj" />
+    <ProjectReference Include="..\ConsoleAppSimplePigLatin\ConsoleAppSimplePigLatin.csproj" />
+    <ProjectReference Include="..\ConsoleAppSquare\ConsoleAppSquare.csproj" />
+    <ProjectReference Include="..\ConsoleAppSurfaceBlock\ConsoleAppSurfaceBlock.csproj" />
+    <ProjectReference Include="..\ConsoleAppTowerBuilder\ConsoleAppTowerBuilder.csproj" />
+  </ItemGroup>
+
+</Project>
