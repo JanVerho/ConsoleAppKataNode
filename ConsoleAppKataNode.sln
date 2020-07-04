@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppRegExprMath", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppNorthSouthEastWest", "ConsoleAppNorthSouthEastWest\ConsoleAppNorthSouthEastWest.csproj", "{AC0CD932-3B60-4AF5-AAE7-3D3A99998B29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppKataPower", "ConsoleAppKataPower\ConsoleAppKataPower.csproj", "{4334CDF3-36C1-4529-A4BA-77921EA61C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppKataPower", "ConsoleAppKataPower\ConsoleAppKataPower.csproj", "{4334CDF3-36C1-4529-A4BA-77921EA61C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppUniqueInList", "ConsoleAppUniqueInList\ConsoleAppUniqueInList.csproj", "{4C74FAAC-D6AF-4335-A0A4-3C09914D8316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{4334CDF3-36C1-4529-A4BA-77921EA61C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4334CDF3-36C1-4529-A4BA-77921EA61C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4334CDF3-36C1-4529-A4BA-77921EA61C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C74FAAC-D6AF-4335-A0A4-3C09914D8316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C74FAAC-D6AF-4335-A0A4-3C09914D8316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C74FAAC-D6AF-4335-A0A4-3C09914D8316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C74FAAC-D6AF-4335-A0A4-3C09914D8316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
